@@ -1,4 +1,3 @@
-    
 GIT
   remote: https://github.com/bmabey/database_cleaner.git
   revision: f15d7610a801e40d1570b56e869e563cdcff198a
@@ -128,4 +127,4 @@ DEPENDENCIES
   tux
 
 BUNDLED WITH
-   1.15.4
+   2.0.1
