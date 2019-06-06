@@ -1,0 +1,26 @@
+<h1>Create a new bottle</h1>
+ 
+<form action="/bottles" method="POST">
+  <label>Date Acquired:</label>
+  <input type="text" name="bottle[date]" id="bottle_date">
+  <br>
+  <label>Storage Location:</label>  
+  <input type="text" name="bottle[location]" id="bottle_location">
+  <br>
+  <label>Nickname:</label>  
+  <input type="text" name="batch[nickname]" id="batch_nickname">
+  <br>
+  <label>Description:</label>  
+  <input type="text" name="batch[description]" id="batch_description">
+  <br>
+  <label>Varietal:</label>  
+  <input type="text" name="batch[varietal]" id="batch_varietal">
+  <br>
+  <label>Vintage:</label>  
+  <input type="text" name="batch[year]" id="batch_year">
+  <br>
+  <label>Produced by:</label>  
+  <input type="text" name="winery[name]" id="winery_name">
+  <br>
+  <input type="submit" value="Create Bottle">
+</form>

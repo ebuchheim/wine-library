@@ -9,4 +9,8 @@ class ApplicationController < Sinatra::Base
       erb :index
     end
 
+    get '/bottle-creation' do
+      erb :new_bottle
+    end
+
   end
